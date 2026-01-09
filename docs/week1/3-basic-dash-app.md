@@ -98,7 +98,7 @@ from dash import Dash, html, dash_table
 ```
 
 Use the [DataTable reference](https://dash.plotly.com/datatable) to add code to create a table from
-the dataframe e.g. ``
+the dataframe e.g. `dash_table.DataTable(df.to_dict('records'))`
 
 Add the code within the `app.layout` section after the `html.H1` component. Use a comma `,` after
 the H1 component before you create the datatable component.

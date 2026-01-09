@@ -124,12 +124,18 @@ instance/*
 !instance/.gitignore
 .webassets-cache
 .env
+.venv
 
 ### COMP0034 files
 docs/tutor
 docs/tutor/*
+docs/md_to_pdf
 src/dash_app/dash_paralympics.py
 src/streamlit_app/streamlit_paralympics.py
 src/flask_app/templates/paralympics.html
 src/flask_app/flask_paralympics.py
-docs/md_to_pdf
+
+
+.idea
+comp0034_activities.egg-info
+*.egg-info
